@@ -2,21 +2,21 @@ import Home from "./home/Home";
 import './App.scss';
 import { Container } from "react-bootstrap";
 import Header from './component/header/Header'
+import SideNav from "./component/sidenav/SideNav";
 
 function App() {
   return (
     <>
-      <Container fluid>
-        <Header />
-        <div className="d-flex">
+
+      <Header />
+      <div className="d-flex">
         <div>
-          hello
+          <SideNav />
         </div>
         <div>
           <Home />
         </div>
-        </div>
-      </Container>
+      </div>
     </>
   );
 }
