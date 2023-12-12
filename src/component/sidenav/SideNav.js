@@ -12,18 +12,20 @@ import { IoMdHelpCircle } from "react-icons/io";
 
 const SideNav = () => {
   return (
-    <ListGroup>
-      <ListGroup.Item> <FaHome /> </ListGroup.Item>
-      <ListGroup.Item> <MdExplore /> </ListGroup.Item>
-      <ListGroup.Item> <IoCube /> </ListGroup.Item>
-      <ListGroup.Item> <FaUserFriends /> </ListGroup.Item>
-      <ListGroup.Item> <MdOutlineRssFeed /> </ListGroup.Item>
-      <ListGroup.Item> <IoPaperPlane /> </ListGroup.Item>
-      <ListGroup.Item> <IoMdSettings /> </ListGroup.Item>
-      <ListGroup.Item> <IoMdHelpCircle /> </ListGroup.Item>
-
-    
-    </ListGroup>
+   <aside className='sidenav'>
+     <ul>
+       <li className='active'><FaHome /></li> 
+       <li><MdExplore /></li> 
+       <li><IoCube /> </li>
+       <li><FaUserFriends /> </li>
+       <li><MdOutlineRssFeed /> </li>
+       <li><IoPaperPlane /> </li>
+    </ul>
+    <ul>
+       <li><IoMdSettings /></li> 
+       <li><IoMdHelpCircle /> </li>
+    </ul>
+   </aside>
   )
 }
 

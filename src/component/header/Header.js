@@ -19,7 +19,7 @@ const Header = () => {
             <Container fluid>
                 <div className='d-flex gap-3 align-items-center'>
                     <RiMenuLine className='fs-2' />
-                    <img src={imgsrc} className='w-25' alt="logo" />
+                    {/* <img src={imgsrc} className='w-25' alt="logo" /> */}
                 </div>
 
 

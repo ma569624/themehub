@@ -1,0 +1,21 @@
+.sidenav{
+    background-color: brown;
+    display: grid;
+    justify-content: space-between;
+    ul{
+        list-style: none;
+        padding: 0;
+
+        li{
+            
+            &.active{
+                background-color: rgb(190, 184, 184);
+            }
+            padding: 10px 20px;
+
+            svg{
+                font-size: 22px;
+            }
+        }
+    }
+}
