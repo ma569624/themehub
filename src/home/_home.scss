@@ -1,0 +1,29 @@
+.product-card{
+    .card-image{
+        position: relative;
+        
+
+        .btn-floating{
+            position: absolute;
+             top: 30px;
+             left: 4%;
+             background-color: rgb(77, 146, 108);
+             color: black;
+             text-decoration: none;
+             padding: 20px;
+             border-radius: 50%;
+        }
+    }
+    .card-action-buttons{
+        position: absolute;
+        bottom: 20px;
+        list-style: none;
+        display: inline-flex;
+        
+        li{
+            padding: 10px;
+            border-radius: 50%;
+            background-color: brown;
+        }
+    }
+}
