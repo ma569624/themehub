@@ -44,7 +44,7 @@ const LatestProducts = () => {
                   <a href="#" className="btn btn-icon btn-light bg-white border-white btn-sm rounded-circle position-absolute top-0 end-0 zindex-5 me-3 mt-3" data-bs-toggle="tooltip" data-bs-placement="left" title="Read later" aria-label="Read later">
                     <i className="bx bx-bookmark" />
                   </a>
-                  <img src="https://silicon.createx.studio/assets/img/landing/digital-agency/blog/02.jpg" className="card-img-top" alt="Image" />
+                  <img src="https://silicon.createx.studio/assets/img/landing/digital-agency/blog/02.jpg" className="card-img-top h-100" alt="Image" />
                 </div>
                 <div className="col-sm-7">
                   <div className="card-body">
@@ -58,7 +58,7 @@ const LatestProducts = () => {
                     <hr className="my-4" />
                     <div className="d-flex flex-sm-nowrap flex-wrap align-items-center justify-content-between">
                       <div className="d-flex align-items-center position-relative me-3">
-                        <img src="https://silicon.createx.studio/assets/img/avatar/08.jpg" className="rounded-circle me-3" width={48} alt="Avatar" />
+                        <img src="https://silicon.createx.studio/assets/img/avatar/08.jpg" className=" rounded-circle me-3" width={48} alt="Avatar" />
                         <div>
                           <a href="#" className="nav-link p-0 fw-bold text-decoration-none stretched-link">Annette Black</a>
                           <span className="fs-sm text-muted">Product Manager</span>

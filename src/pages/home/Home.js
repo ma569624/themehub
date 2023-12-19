@@ -1,8 +1,9 @@
 import React from 'react'
 import { Row, Col, Container } from 'react-bootstrap'
 
-// import HeroSection from '../../component/herosection/HeroSection';
+import HeroSection from '../../component/herosection/HeroSection';
 import LatestProducts from '../../component/Latestproductsection/LatestProducts';
+import Header from '../../component/header/Header';
 import BenifitsSection from '../../component/Benifits/BenifitsSection';
 
 const Home = () => {
@@ -12,9 +13,10 @@ const Home = () => {
       <Container fluid> 
         <Row>
           <Col lg='12' className='g-0'>
-            <BenifitsSection />
-            {/* <HeroSection /> */}
+            <Header/>
+            <HeroSection />
             <LatestProducts />
+            {/* <BenifitsSection /> */}
           </Col>
         </Row>
       </Container>
